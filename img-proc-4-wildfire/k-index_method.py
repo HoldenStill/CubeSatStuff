@@ -65,7 +65,7 @@ if __name__ == "__main__":
                 cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
     cv2.putText(img_780_display, '780nm Input', (10, 30),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
-    cv2.putText(mask_display, 'Robust Output', (10, 30),
+    cv2.putText(mask_display, 'Output', (10, 30),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
 
     combined_view = np.hstack((img_769_display, img_780_display, mask_display))
